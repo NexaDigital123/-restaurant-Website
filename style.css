@@ -50,7 +50,9 @@ h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
     position: relative;
-    display: inline-block;
+    display: flex;
+    justify-self: center;
+    align-items: center;
 }
 /* Decorative underline for headings */
 h2:after {
@@ -730,4 +732,10 @@ nav a.active:after {
     background-color: #f8d7da;
     color: #721c24;
     border: 1px solid #f5c6cb;
+}
+p{
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
 }
